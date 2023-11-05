@@ -1,6 +1,6 @@
 <?php
 interface Hewan{
     
-    public function bersuara();
-    public function bergerak();
+    public function bersuara():void;
+    public function bergerak():void;
 }

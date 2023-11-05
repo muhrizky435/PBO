@@ -1,10 +1,10 @@
 <?php
 class Ikan implements Hewan {
-    public function bersuara() {
+    public function bersuara(): void {
         echo "Ikan tidak bersuara";
     }
 
-    public function bergerak() {
+    public function bergerak(): void {
         echo "Ikan berenang";
     }
 }
