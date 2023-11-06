@@ -8,3 +8,4 @@ class Burung implements Hewan {
         echo "Burung terbang";
     }
 }
+
